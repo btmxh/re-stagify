@@ -1,0 +1,30 @@
+{
+  "name": "re-stagify",
+  "version": "1.0.0",
+  "description": "Re:Stage-ify strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoduyanh/re-stagify.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
+  "keywords": [
+    "watch",
+    "re",
+    "stage"
+  ],
+  "author": "ngoduyanh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ngoduyanh/re-stagify/issues"
+  },
+  "homepage": "https://github.com/ngoduyanh/re-stagify#readme"
+}
