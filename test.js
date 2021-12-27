@@ -19,4 +19,9 @@ describe('reStagify', function () {
     it('no re/ri/ry/etc.', function () {
         assert(reStagify("without music, life would be pointless", true, true) == "without music, life would be pointless");
     });
+
+    it('no double colon', function () {
+        assert(reStagify("guys watch re:stage") == "guys watch Re:stage");
+        assert(reStagify("the reason why Jesus Chri:st is not re:al is ...", true) == "the Re:ason why Jesus ChRe:st is not Re:al is ...")
+    })
 });
